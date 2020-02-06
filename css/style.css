@@ -1,0 +1,113 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: rgb(128,124,225);
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  height: 700px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.top {
+  padding: 16px;
+  padding-bottom: 0px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.top p {
+  margin: 0;
+  color: grey;
+}
+
+.card-big {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+h2 {
+  color: rgb(128,124,225);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 16px 0px 0px 0px;
+  font-weight: 500;
+}
+
+h4 {
+  color: rgb(128,124,225);
+  font-size: 12px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lwrap {
+
+}
+
+.card-small {
+  width: 210px;
+  height: 100px;
+  background-color: #F5F6F8;
+  border-radius: 10px;
+  text-align: center;
+  margin: 4px;
+}
+
+.card-small p {
+  color: grey;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.listing{
+  display:flex;
+  margin:16px
+  padding:16px;
+  border-bottom: grey;
+  height: 120px;
+  border-bottom: 1px solid lightgrey;
+}
+.row1{
+  margin:26px;
+
+}
+.row1 h6{
+  font-size:14px;
+  color:rgb(125,120,234);
+  margin-bottom:6px;
+}
+.row1 h5{
+  font-size:12px;
+  color:grey;
+  margin-bottom:6px;
+}
+.row1 p{
+  font-size:12px;
+  margin-bottom:6px;
+}
